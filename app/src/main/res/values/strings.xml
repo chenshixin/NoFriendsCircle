@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">屏蔽朋友圈</string>
+    <string name="action_settings">设置</string>
+    <string name="service.description">此功能用户屏蔽微信朋友圈,当你点开朋友圈时,自动帮你返回\n你可以随时在应用内关闭此功能</string>
+    <string name="nodeInfo.text.friend.circle">朋友圈</string>
+    <string name="nodeInfo.text.person.album">个人相册</string>
+
+    <string name="main.snackbar.title">开启失败\n请打开辅助功能-屏蔽朋友圈的开关</string>
+    <string name="main.snackbar.action">去开启</string>
+    <string name="main.start.fail">开启失败</string>
+    <string name="main.status.start">已开启屏蔽模式</string>
+    <string name="main.status.stop">已关闭屏蔽模式</string>
+    <string name="main_count_unit">次</string>
+    <string name="main.count.times">共为您屏蔽</string>
+    <string name="main_tip"><![CDATA[点击此按钮开启与关闭屏蔽模式—>]]></string>
+</resources>
