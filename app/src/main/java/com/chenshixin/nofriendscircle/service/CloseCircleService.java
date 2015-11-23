@@ -5,7 +5,6 @@ import android.os.AsyncTask;
 import android.view.accessibility.AccessibilityEvent;
 
 import com.chenshixin.nofriendscircle.R;
-import com.chenshixin.nofriendscircle.util.PreferenceUtil;
 import com.chenshixin.nofriendscircle.util.SettingUtil;
 
 import java.util.List;

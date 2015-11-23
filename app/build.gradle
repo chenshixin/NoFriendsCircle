@@ -2,31 +2,32 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        chenshixin {
-            keyAlias 'chenshixin'
+        csx {
+            keyAlias 'csx'
             keyPassword 's29bj1'
-            storeFile file('/Users/csx/Work/Code/Android/chenshixin.jks')
+            storeFile file('../csx.jks')
             storePassword 's29bj1'
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "22.0.1"
     defaultConfig {
         applicationId "com.chenshixin.nofriendscircle"
         minSdkVersion 17
-        targetSdkVersion 23
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
-        signingConfig signingConfigs.chenshixin
+        signingConfig signingConfigs.csx
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.csx
         }
         debug {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
     productFlavors {

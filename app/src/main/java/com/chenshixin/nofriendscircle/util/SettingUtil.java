@@ -15,6 +15,7 @@ public class SettingUtil {
 
     /**
      * 获取屏蔽次数
+     *
      * @return 屏蔽次数
      */
     public static int getStopCount() {
