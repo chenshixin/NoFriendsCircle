@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">屏蔽朋友圈</string>
     <string name="action_settings">设置</string>
-    <string name="service.description">此功能用户屏蔽微信朋友圈,当你点开朋友圈时,自动帮你返回\n你可以随时在应用内关闭此功能</string>
+    <string name="service.description">此功能用于屏蔽微信朋友圈,当你点开朋友圈时,自动帮你返回\n你可以随时在应用内关闭此功能</string>
     <string name="nodeInfo.text.friend.circle">朋友圈</string>
     <string name="nodeInfo.text.person.album">个人相册</string>
 
